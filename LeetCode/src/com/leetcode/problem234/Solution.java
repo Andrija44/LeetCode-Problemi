@@ -12,9 +12,6 @@ class Solution {
 			head = head.next;
 		}
 
-//		if (vals.size() % 2 != 0 && vals.size() > 1)
-//			return false;
-
 		for (int i = 0, j = vals.size() - 1; i < vals.size() / 2; i++, j--) {
 			if (vals.get(i) != vals.get(j))
 				return false;
